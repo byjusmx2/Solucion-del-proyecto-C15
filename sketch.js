@@ -35,9 +35,9 @@ function setup() {
   bow.scale = 1;
   
    score = 0  
- redB= new Group();
+ //redB= new Group();
  
-  arrowGroup= new Group();
+  //arrowGroup= new Group();
 
   
 }
@@ -80,7 +80,7 @@ function draw() {
   }
 
   if (arrowGroup.isTouching(redB)) {
-    redB.destroyEach();
+    //redB.destroyEach();
 
     gameState=END; 
 
@@ -109,7 +109,7 @@ function redBalloon() {
   red.velocityX = 3;
   red.lifetime = 150;
   red.scale = 0.1;
-  redB.add(red);
+  //redB.add(red);
 }
 
 function blueBalloon() {
@@ -146,6 +146,6 @@ function pinkBalloon() {
   arrow.velocityX = -4;
   arrow.lifetime = 100;
   arrow.scale = 0.3;
-  arrowGroup.add(arrow);
+  //arrowGroup.add(arrow);
 
 }
