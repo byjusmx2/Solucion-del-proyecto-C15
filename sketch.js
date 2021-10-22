@@ -79,10 +79,10 @@ function draw() {
     }
   }
 
-  if (arrowGroup.isTouching(redB)) {
+  if (frameCount>300) {
     //redB.destroyEach();
 
-    gameState=END; 
+  gameState=END;  
 
 
 }
